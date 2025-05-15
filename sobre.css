@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+
+  .sobre-weverton {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #f4f9ff;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  line-height: 1.7;
+  color: #333;
+}
+
+.sobre-weverton h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.sobre-weverton p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.sobre-weverton ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.sobre-weverton li {
+  font-size: 17px;
+  margin-bottom: 8px;
+  list-style-type: square;
+}
+
+

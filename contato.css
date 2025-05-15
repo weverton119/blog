@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contato-elegante {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .contato-elegante h2 {
+    color: #00796b;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contato-elegante p {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .contato-elegante a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contato-elegante a:hover {
+    text-decoration: underline;
+  }
+  
+  .contato-elegante i {
+    margin-right: 8px;
+    color: #00796b;
+  }
+  

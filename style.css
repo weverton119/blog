@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .post .date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 50%;
+    height: auto;
+  }
+  .galeria {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Quebra linha se não couber na tela */
+  }
+  
+  .galeria img {
+    width: 350px;
+    height: 500;
+    border: 3px solid #128d41;
+    border-radius: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+    color: #000000;
+    font-size: 16px;
+  }
+  .galeria2 {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Quebra linha se não couber na tela */
+  }
+  
+  .galeria2 img {
+    width: 350px;
+    height: 500px;
+    border: 3px solid #2d419e;
+    border-radius: 10px;
+  }
+
+  .galeria3 {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Quebra linha se não couber na tela */
+  }
+  
+  .galeria3 img {
+    width: 350px;
+    height: 450px;
+    border: 3px solid #2d419e;
+    border-radius: 10px;
+  }
+
+  .galeria4 {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Quebra linha se não couber na tela */
+  }
+  
+  .galeria4 img {
+    width: 350px;
+    height: 450px;
+    border: 3px solid #2d419e;
+    border-radius: 10px;
+  }
